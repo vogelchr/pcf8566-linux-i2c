@@ -1,0 +1,13 @@
+A short demo to talk to a pcf8566 LCD controller via i2c.
+
+The particular board I have is from the junk-drawer at work
+and of unknown provenance. It features a single pcf8566
+strapped to sub-address 0 and i2c address 0x3e and features
+a 6-digit 7-segment LCD. On the left-hand side the LCD can
+also show the symbols "A", "D" and an additional minus sign.
+
+The i2c bus being used is /dev/i2c-0, using the Linux i2c dev API.
+
+https://instagram.com/p/1hqoZIHEUR/
+
+
